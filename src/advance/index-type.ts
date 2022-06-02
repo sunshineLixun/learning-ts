@@ -30,7 +30,7 @@ function getValueT<T, K extends keyof T>(obj: T, keys: K[]): T[K][] {
   return keys.map(key => obj[key])
 }
 
-getValueT(obj, ['a', 'b'])
+console.log(getValueT(obj, ['a', 'b']))
 
 // 错误
 // getValueT(obj, ['f', 'd'])
