@@ -14,7 +14,7 @@ interface HumanInterface extends Human {
 }
 
 class Baby implements HumanInterface {
-  name: string
+  name: string = 'baby'
   humanEat(): void {
     
   }
