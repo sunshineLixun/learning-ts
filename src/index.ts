@@ -1,4 +1,5 @@
 import "./global.d.ts";
+import "./declare";
 
 import { valueOfPi } from "./constants";
 
